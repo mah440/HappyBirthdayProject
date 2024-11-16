@@ -1,0 +1,113 @@
+body{
+    background-image: url("./images/bodybg.png");
+    background-size: cover; /* Ensures the image covers the entire div */
+    background-position: center; /* Centers the image */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+    margin: 0;
+}
+.firstDisplay{
+    display: block;
+    align-content: inline;
+}  
+.container {
+    display: flex;
+    align-items: center; /* Aligns items in the center vertically */
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+.container2 {
+    display: flex;
+    align-items: center; /* Aligns items in the center vertically */
+    justify-content: space-between;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+.titlephoto {
+    height: 62px;
+    width: 62px;
+    border-radius: 31px;
+    background-color: #f39c12; /* You can change the color */
+    margin-right: 0px; /* Space between the div and h1 */
+    background-image: url(./images/L/L3.jpg);
+    background-size: cover; /* Ensures the image covers the entire div */
+    background-position: center; /* Centers the image */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+}
+.greencolour{
+    font-style: italic;
+    color: rgb(57, 63, 116);
+}
+
+h1 {
+    margin: 0;
+    font-size: 24px; /* Adjust size as needed */
+    font-family: 'Playfair Display', serif;
+}
+/* .s{
+    height: 80px;
+    width: 80px;
+    background-color: aqua;
+} */
+p{
+    font-family: 'Playfair Display', serif;
+    width: 75% ;
+    margin-top: 0px;
+    margin-left: 10%;
+}
+
+.firstDisplay{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+.SecondDisplay{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+.b1{
+    height: 90px;
+    width: 90px;
+    background-color: aqua;
+    border-radius: 20px;
+    background-size: cover; /* Ensures the image covers the entire div */
+    background-position: center; /* Centers the image */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+}
+footer{
+    text-align: center;
+    background-color: pink;
+}
+.a1{
+    background-image: url(./images/L/L11.jpg);
+}
+.a2{
+    background-image: url(./images/L/L1.jpg);  
+}
+.a3{
+    background-image: url(./images/L/L4.jpg);  
+}
+.a4{
+    background-image: url(./images/L/L2.jpg);  
+}
+
+.c1{
+    background-image: url(./images/L/L6.jpg);
+}
+.c2{
+    background-image: url(./images/L/L8.jpg);  
+}
+.c3{
+    background-image: url(./images/L/L7.jpg);  
+}
+.c4{
+    background-image: url(./images/L/L1.jpg);  
+}
+.s1{
+    background-image: url(./images/L/L9.jpg);  
+}
+
+.s2{
+    background-image: url(./images/L/L10.jpg);  
+}
