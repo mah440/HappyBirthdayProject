@@ -1,20 +1,35 @@
+/* Reset default margins and paddings */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* Make sure the HTML and body take up full height */
+html, body {
+    height: 100%;
+}
+.wrapper {
+    min-height: 99vh; /* Full viewport height */
+    display: flex;
+    flex-direction: column; /* Stack content vertically */   
+}
+.mapper{
+    flex: 1;
+    margin: 0px 10px;
+}
 body{
     background-image: url("./images/bodybg.png");
-    background-size: cover; /* Ensures the image covers the entire div */
-    background-position: center; /* Centers the image */
-    background-repeat: no-repeat; /* Prevents the image from repeating */
-    margin: 0;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat; 
 }
-.firstDisplay{
-    display: block;
-    align-content: inline;
-}  
+
 .container {
     display: flex;
     align-items: center; /* Aligns items in the center vertically */
     justify-content: center;
     margin-top: 20px;
-    margin-bottom: 50px;
+    margin-bottom: 35px;
 }
 .container2 {
     display: flex;
@@ -23,16 +38,17 @@ body{
     margin-top: 20px;
     margin-bottom: 50px;
 }
+
 .titlephoto {
-    height: 62px;
-    width: 62px;
-    border-radius: 31px;
-    background-color: #f39c12; /* You can change the color */
-    margin-right: 0px; /* Space between the div and h1 */
+    height: 90px;
+    width: 90px;
+    border-radius: 45px;
+    background-color: #f39c12;
+    margin-right: 0px; 
     background-image: url(./images/L/L3.jpg);
-    background-size: cover; /* Ensures the image covers the entire div */
-    background-position: center; /* Centers the image */
-    background-repeat: no-repeat; /* Prevents the image from repeating */
+    background-size: cover; 
+    background-position: center;
+    background-repeat: no-repeat; 
 }
 .greencolour{
     font-style: italic;
@@ -44,30 +60,28 @@ h1 {
     font-size: 24px; /* Adjust size as needed */
     font-family: 'Playfair Display', serif;
 }
-/* .s{
-    height: 80px;
-    width: 80px;
-    background-color: aqua;
-} */
+
 p{
-    font-family: 'Playfair Display', serif;
+    /* font-family: 'Georgia', serif; */
+    font-family: 'Dancing Script', cursive;
     width: 75% ;
-    margin-left: 10%;
+    text-align: center;
+    font-size: 1.5rem;
 }
 
 .firstDisplay{
     display: flex;
     justify-content: space-between;
-    margin-bottom: 50px;
+    margin-bottom: 35px;
 }
 .SecondDisplay{
     display: flex;
     justify-content: space-between;
-    margin-bottom: 20px;
+    margin-bottom: 15px;
 }
 .b1{
-    height: 90px;
-    width: 90px;
+    height: 130px;
+    width: 130px;
     background-color: aqua;
     border-radius: 20px;
     background-size: cover; /* Ensures the image covers the entire div */
@@ -77,6 +91,7 @@ p{
 footer{
     text-align: center;
     background-color: pink;
+    padding: 10px 0;
 }
 .a1{
     background-image: url(./images/L/L11.jpg);
